@@ -73,7 +73,7 @@ public class GameManager : MonoBehaviour {
 
 			if(Input.GetMouseButtonUp(0) && areaMarker.active){
 				moveMarkerFlag=false;
-				releadeEgg();
+				releaseEgg();
 				StartCoroutine(checkMiniGameFinish());
 				gameActiveFlag=false;
 			}
@@ -85,7 +85,7 @@ public class GameManager : MonoBehaviour {
 		egg.GetComponent<Rigidbody2D>().constraints=RigidbodyConstraints2D.FreezeAll;
 	}
 
-	private void releadeEgg(){
+	private void releaseEgg(){
 		egg.GetComponent<Rigidbody2D>().constraints=RigidbodyConstraints2D.None;
 	}
 	private IEnumerator checkMiniGameFinish(){
@@ -203,10 +203,10 @@ public class GameManager : MonoBehaviour {
 
 
 	private void checkLevelData(){
-		if(PlayerPrefs.GetInt(bestLevelKey)!=null){
+		if(PlayerPrefs.GetInt(bestLevelKey) != null){
 			bestLevel=PlayerPrefs.GetInt(bestLevelKey);
 		}
-		if(PlayerPrefs.GetInt(starCountKey)!=null){
+		if(PlayerPrefs.GetInt(starCountKey) !=  null){
 			startCount=PlayerPrefs.GetInt(starCountKey);
 		}
 	}

@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: b785eda7d92f5d94e937d05a9d905b30
+timeCreated: 1497943298
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 48
+  forceTextureCase: -1
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Red October
+  fontNames:
+  - Red October
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 5f35fae6ce6bc8241ba53cda67313b74, type: 3}
+  customCharacters: 
+  fontRenderingMode: 2
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

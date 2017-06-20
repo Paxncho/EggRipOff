@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: c325907b6d87b804bb6e147b8926bbea
+timeCreated: 1497943298
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Russian
+  fontNames:
+  - Russian
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 66cb2d5dd92643d458866b43361ef82f
+timeCreated: 1497943298
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 48
+  forceTextureCase: -1
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Red October Light
+  fontNames:
+  - Red October Light
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 2
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
